@@ -1,5 +1,8 @@
 # Dependency Bouncer
 
+![Dependency Bouncer demo](media/demo.gif)
+
+
 A Claude Code mod that vets packages before they install.
 
 It watches install commands: `npm i/install/add/ci/exec/update`, `npx`, `yarn add`, `yarn workspace … add`, `pnpm add/dlx`, `bun add/x`, `npm create`, `pip install` (including `-r` files and their includes), `uv add`, `uv pip install`, `uv tool install`, `uvx`, `poetry add`, `uv sync`, `poetry install` and `pipx`. The command parser handles:
