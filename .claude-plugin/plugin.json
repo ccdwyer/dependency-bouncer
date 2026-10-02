@@ -8,5 +8,9 @@
     "url": "https://github.com/ccdwyer"
   },
   "repository": "https://github.com/ccdwyer/dependency-bouncer",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/ccdwyer/dependency-bouncer",
+  "supportUrl": "https://github.com/ccdwyer/dependency-bouncer/issues",
+  "documentationUrl": "https://github.com/ccdwyer/dependency-bouncer#readme",
+  "privacyPolicyUrl": "https://github.com/ccdwyer/dependency-bouncer/blob/main/PRIVACY.md"
 }
