@@ -1,6 +1,6 @@
 {
   "name": "dependency-bouncer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Vets npm and PyPI packages before they install: blocks hallucinated, typosquatted and brand-new install-script packages, flags risky ones",
   "types": "./types/index.d.ts",
   "author": {
