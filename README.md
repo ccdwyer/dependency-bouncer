@@ -73,6 +73,14 @@ Engine calls it makes: `$.clock.now (via by`, `vet)`, `$.clock.sleep (via by)`, 
 
 A `tool.call` hook sits in the middle of every tool call: it can see the call, refuse it, or add context to its result. This mod uses that only for the behaviour described above.
 
+## Privacy
+
+Before a package installs, it sends the package name (and version, when known) to the public registries to check it: registry.npmjs.org, api.npmjs.org and pypi.org. No code, file contents or credentials are sent.
+
+The mod collects no analytics or telemetry, and its author receives no data from it.
+
+Full policy: [PRIVACY.md](PRIVACY.md).
+
 ## License
 
 MIT
