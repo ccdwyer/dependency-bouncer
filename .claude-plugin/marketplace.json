@@ -1,0 +1,13 @@
+{
+  "name": "dependency-bouncer",
+  "owner": {
+    "name": "Chris Dwyer"
+  },
+  "plugins": [
+    {
+      "name": "dependency-bouncer",
+      "source": "./",
+      "description": "Vets npm and PyPI packages before they install: blocks hallucinated, typosquatted and brand-new install-script packages, flags risky ones"
+    }
+  ]
+}
