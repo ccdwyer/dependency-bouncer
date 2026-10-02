@@ -60,3 +60,19 @@ Not covered:
 claude plugin validate .
 claude plugin test .
 ```
+
+## What it hooks
+
+Events this mod hooks, as `claude plugin validate` reads the module:
+
+- `session.start`
+- `command.run{command=allow-dep}`
+- `tool.call`
+
+Engine calls it makes: `$.clock.now (via by`, `vet)`, `$.clock.sleep (via by)`, `$.command.register`, `$.env.get (via ambientRegistries`, `homeDir)`, `$.fs.read (via readOr)`, `$.http.fetch (via getJson)`, `$.state.get`, `$.state.set`, `$.ui.toast`.
+
+A `tool.call` hook sits in the middle of every tool call: it can see the call, refuse it, or add context to its result. This mod uses that only for the behaviour described above.
+
+## License
+
+MIT
